@@ -327,7 +327,6 @@ a:focus {
 
 .contact-form {
   padding: 25px;
-  border-radius: 20px;
 }
 
 .contact-form input {
@@ -337,6 +336,7 @@ a:focus {
   width: 100%;
   margin: 10px 0;
   padding: 7px 10px;
+  border-radius: 10px;
 }
 
 .contact-form .input_message {
@@ -355,6 +355,7 @@ a:focus {
   margin-top: 25px;
   background-color: #fec913;
   color: #fff;
+  border-radius: 10px;
 }
 
 /* end contact section */
