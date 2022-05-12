@@ -3,6 +3,13 @@ body {
 
   color: #48494a;
   background-image: url(../images/body-bg.jpg);
+  background-size: cover;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #071c4d !important;
 }
 
 .layout_padding {
@@ -113,7 +120,7 @@ a:focus {
 .top_container::before {
   content: "";
   position: absolute;
-  width: 48%;
+  width: 50%;
   height: 100%;
   background: url(../images/hero-bg.png);
   background-size: cover;
@@ -128,7 +135,7 @@ a:focus {
 }
 
 .top_container.sub_pages {
-  height: 35vh;
+  height: auto;
 }
 
 .top_container.sub_page {
@@ -190,8 +197,8 @@ a:focus {
 }
 
 .hero_img-container {
-  width: 100%;
-  padding-left: 300px;
+  width: 50%;
+  float: left;
 }
 
 .hero_detail-box {
@@ -271,7 +278,7 @@ a:focus {
 .client_section {
   background-image: url(../images/shape-1.png);
   background-repeat: no-repeat;
-
+  background-size: cover;
   background-position: right;
 
   background-size: 18%;
@@ -311,6 +318,8 @@ a:focus {
 /* contact section */
 .contact_section {
   background-image: url(../images/shape-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-repeat: no-repeat;
   background-size: 14%;
   background-position: left center;
